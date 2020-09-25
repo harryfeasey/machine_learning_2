@@ -51,8 +51,6 @@ def linear_regression(xs, ys, basis_functions=None, penalty=0):
         return linear_regression_(xs, ys, penalty)
 
 
-import numpy as np
-
 xs = np.arange(5).reshape((-1, 1))
 ys = np.arange(1, 11, 2)
 
